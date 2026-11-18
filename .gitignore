@@ -1,0 +1,30 @@
+# Build và binary sinh ra
+/build/
+*.o
+*.obj
+*.exe
+*.a
+*.so
+*.dll
+*.out
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Dữ liệu lớn và lượt thử tạm thời
+/data/generated/
+/results/scratch/
+
+# Thông tin local và secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+~$*
